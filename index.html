@@ -175,7 +175,7 @@ document.getElementById('x').onclick=closeM;
 ov.onclick=function(e){if(e.target===ov)closeM()};
 document.addEventListener('keydown',function(e){if(e.key==='Escape')closeM()});
 document.querySelectorAll('.t').forEach(function(c){c.onclick=openM});
-var PREVIEW=true;
+var PREVIEW=false;
 var OFFER_BASE="https://taprkr.com/r/eyJ0IjoiZnJlZWNhc2gtY3BpIiwidGlkIjoiOGJmYTMwMmMyZDliZDk4ZmNjYjEiLCJ0cyI6MTc5MjQyNDE2Nzk1OX0?feb=1";
 function buildUrl(){
   var u=new URL(OFFER_BASE);
